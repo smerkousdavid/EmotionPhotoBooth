@@ -1,7 +1,7 @@
 # EmotionPhotoBooth
 A photo booth game that can detect if you're happy or sad then answer relevant questions<br>
 
-## What it is
+## Intro
 This is photobooth that can detect (using your webcamera) emotions. It allows users to play different emotion based games using a graphical interface made in Tkinter. At the end of the game the user is able to take a snapshot, print and place text on their image.<br>
 
 ## Install
@@ -11,11 +11,13 @@ Clone and change directory to the repository<br>
 	git clone https://github.com/smerkousdavid/EmotionPhotoBooth ~/EmotionPhotoBooth
 	cd ~/EmotionPhotoBooth
 
+<br>
 Install the dependencies<br>
 
 	
 	sudo pip install -r requirements.txt
 
+<br>
 **If you want to build your own facial recognition dataset**<br>
 Make sure to read these instructions<br><br>
 
@@ -25,7 +27,7 @@ Create the required directories
 	cd ~/EmotionPhotoBooth
 	mkdir sorted_set source_emotion source_images dataset
 	
-
+<br>
 Download the CK+ and Emotion Labels datasets from Cohn-Kanade<br>
 Once completed unzip the folder(s) near the EmotionPhotoBooth folder<br>
 **You must register via a valid email**
@@ -33,9 +35,10 @@ Once completed unzip the folder(s) near the EmotionPhotoBooth folder<br>
 
 	http://www.consortium.ri.cmu.edu/ckagree/
 
+<br>
 Organizing the datasets<br>
-1. Move all of the folders containing *.txt into the source_emotion folder
-2. Move all of the folders containing the images into the source_images folder<br>
+1. Move all of the folders containing *.txt into the source_emotion folder<br>
+2. Move all of the folders containing the images into the source_images folder<br><br>
 
 Run the premade cascade training (Modify the main file or import emotionset.py)<br>
 
@@ -50,7 +53,15 @@ Run the premade cascade training (Modify the main file or import emotionset.py)<
 	emotions.train() # Train and write the image datasets to the trainer.txt
 	emotions.run_test() # Test the trainer (It will print the success rate, the emotion labels must be present)
 
-You're done!
+<br>
+**You're done!**
+
+## Run
+To run the EmotionPhotoBooth just use either Python2.7 or above with the file main.py
+
+
+	python main.py
+
 
 ## License
 MIT License<br><br>
