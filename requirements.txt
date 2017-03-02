@@ -1,0 +1,8 @@
+opencv-python>=3.2.0
+numpy>=1.11.0
+jsonmerge>=1.2.1
+gevent
+pillow
+imutils
+pyusb
+pycups

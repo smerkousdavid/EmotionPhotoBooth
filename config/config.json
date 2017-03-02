@@ -1,0 +1,34 @@
+{
+	"author": "David Smerkous",
+	"date": "Feb 2:19:2017 -0400",
+
+	"source_emotion": "source_emotion",
+	"source_images": "source_images",
+	"sorted_set": "sorted_set",
+	"dataset": "dataset",
+	"cascades": "cascades",
+	
+	"sad_face": "assets/sad.png",
+	"happy_face": "assets/happy.png",
+	"face_width": 200,
+	"face_height": 200,
+	"face_x": 10,
+	"face_y": 10,
+	
+	"emotions": {
+		"neutral": false,
+		"anger": false,
+		"contempt": false,
+		"disgust": false,
+		"fear": false,
+		"happy": true,
+		"sadness": true,
+		"surprise": false
+	},
+
+	"games": {
+		"one": "objectoriented",
+		"two": "economyww2",
+		"three": "womenww2"
+	}
+}

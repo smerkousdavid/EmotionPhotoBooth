@@ -20,6 +20,11 @@ lib64/
 parts/
 sdist/
 var/
+olddataset/
+sorted_set/
+source_emotion/
+source_images/
+dataset/
 *.egg-info/
 .installed.cfg
 *.egg
